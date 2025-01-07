@@ -24,5 +24,7 @@ def test_calcular_promedio_correctos(num1, num2, num3, resultado):
     ("4", "5", "15", ValueError)
 ])
 def test_calcular_promedio_incorrectos(num1, num2, num3, resultado):
+    #Assertions about expected exceptions;
+    #pytest.raises() as a context manager; pytest.raises will match the exception type or any subclasses
     with pytest.raises(ValueError):
         assert calcular_promedio(num1, num2, num3) == resultado
