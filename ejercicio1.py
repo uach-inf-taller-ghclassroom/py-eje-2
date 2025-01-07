@@ -1,5 +1,8 @@
 def calcular_promedio(num1, num2, num3):
-    return (num1 + num2 + num3) / 3
+    ...
+
+# def calcular_promedio(num1, num2, num3):
+#     return (num1 + num2 + num3) / 3
 
 # def calcular_promedio(num1, num2, num3):
 #     try:
